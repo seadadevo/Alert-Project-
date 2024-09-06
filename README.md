@@ -17,6 +17,4 @@ This project is a React-based alert notification system built using JSX and SASS
 - Vite
 - Lucide React (for icons)
 
-## Run
-
-![Alert-Preview](./assets/Screenshot 2024-09-06 160927.png)
+![Screenshot 2024-09-06 160927](https://github.com/user-attachments/assets/8d5775ea-f88f-4cac-923c-37abe4b10efd)
