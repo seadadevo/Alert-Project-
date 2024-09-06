@@ -1,0 +1,44 @@
+@mixin bodyCard( $name, $Fontcolor, $bgColor){ 
+    .#{$name} {
+    border: 2px dotted $Fontcolor;
+    border-radius: 0.8rem;
+    padding: 1.3rem;
+    background-color: $bgColor;
+    color: $Fontcolor;
+    width: 70%;
+    transform: translateX(30%);
+    margin: 1rem 0 2.3rem;
+    .alert-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+    
+            .title {
+                display: flex;
+                align-items: center;
+            }
+    
+            span svg {
+                margin-right: 0.6rem;
+                color: $Fontcolor;
+            }
+            .close {
+                cursor: pointer;
+            }
+        }
+        p {
+            margin-top: 1.2rem;
+            font-weight: 500;
+            line-height: 1.5rem;
+            margin-top: 1.2rem;
+        }
+    }
+}
+
+
+@include bodyCard( "alert-danger",  #ffff , #161616);
+@include bodyCard("Note-danger", #b2c3fe, #090814);
+@include bodyCard( "Wrong-danger", #dd878a, #1d0403);
+@include bodyCard( "Proccesed-danger", #50852f , #1e1e00);
+@include bodyCard( "tips-danger", #f6d46f, #0e0a02);
+

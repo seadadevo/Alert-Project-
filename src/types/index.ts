@@ -1,0 +1,1 @@
+export type AlertTypes = "alert-danger" | "Note-danger" | "Wrong-danger" | "Proccesed-danger" | "tips-danger";
