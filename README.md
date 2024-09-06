@@ -19,4 +19,4 @@ This project is a React-based alert notification system built using JSX and SASS
 
 ## Run
 
-![ِِAlert-Preview](./assets/Screenshot 2024-09-06 160927.png)
+![Alert-Preview](./assets/Screenshot 2024-09-06 160927.png)
